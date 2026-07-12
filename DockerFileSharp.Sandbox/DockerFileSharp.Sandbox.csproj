@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>dockerfilesharp-tests</AssemblyName>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishSingleFile>true</PublishSingleFile>		
+		<SelfContained>true</SelfContained>
+    <TrimMode>full</TrimMode>
+    <StackTraceSupport>false</StackTraceSupport>
+    <EnableUnsafeBinaryFormatterSerialization>false</EnableUnsafeBinaryFormatterSerialization>
+    <UseSizeOptimizedLinq>true</UseSizeOptimizedLinq>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
+    <DebuggerSupport>false</DebuggerSupport>
+    <UseSystemResourceKeys>true</UseSystemResourceKeys>
+    <MetadataUpdaterSupport>false</MetadataUpdaterSupport>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <IsPublishable>false</IsPublishable> 
+    <!-- <PublishAOT>true</PublishAOT> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../DockerFileSharp/DockerFileSharp.csproj" />
+  </ItemGroup>
+
+</Project>

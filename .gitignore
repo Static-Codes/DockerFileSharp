@@ -1,0 +1,6 @@
+DockerFileSharp/bin/
+DockerFileSharp/obj/
+DockerFileSharp.Sandbox/bin/
+DockerFileSharp.Sandbox/obj/
+DockerFileSharp.Sandbox/Dockerfile
+.vscode/*
