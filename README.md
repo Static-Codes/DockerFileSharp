@@ -1,10 +1,19 @@
-![NuGet Version](https://img.shields.io/nuget/v/DockerFileSharp)
-![.NET 10](https://img.shields.io/badge/.NET-10.0-blue?logo=dotnet)
-![License](https://img.shields.io/github/license/Static-Codes/DockerFileSharp)
+<div align='center'>
+    <img src="./assets/logo.svg" width='150'>
+    <br>
+    <h1>
+
+
 
 # DockerFileSharp
 
 A lightweight, cross-platform, and BuildKit ready C# library for generating Dockerfiles using .NET 10+.
+
+![NuGet Version](https://img.shields.io/nuget/v/DockerFileSharp)
+![.NET 10](https://img.shields.io/badge/.NET-10.0-blue?logo=dotnet)
+![License](https://img.shields.io/github/license/Static-Codes/DockerFileSharp)
+
+</div>
 
 ## Platforms Supported
 - Windows 10/11
