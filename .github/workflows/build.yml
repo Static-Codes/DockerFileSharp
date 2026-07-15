@@ -1,6 +1,7 @@
 name: Build and push NuGet package
 
-workflow_dispatch:
+on:
+  workflow_dispatch:
 
 jobs:
   build-and-publish:
