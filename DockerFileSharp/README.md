@@ -1,8 +1,4 @@
-<div align='center'>
-    <img src="./assets/logo.svg" width='150'>
-    <br>
-    <h1>
-
+![DockerFileSharp Logo](https://raw.githubusercontent.com/Static-Codes/DockerFileSharp/main/assets/logo.svg)
 
 
 # DockerFileSharp
@@ -14,7 +10,6 @@ A lightweight, cross-platform, and BuildKit ready C# library for generating Dock
 ![.NET 10](https://img.shields.io/badge/.NET-10.0-blue?logo=dotnet)
 ![License](https://img.shields.io/github/license/Static-Codes/DockerFileSharp)
 
-</div>
 
 ## Platforms Supported
 - Windows 10/11
@@ -198,6 +193,7 @@ public static void CudaExample()
 | **STOPSIGNAL** | Sets the system call signal for exiting the container. |
 | **USER** | Sets the username/UID and optional group/GID. |
 | **WORKDIR** | Sets the working directory for subsequent instructions. |
+
 ---
 
 ## Implementation Details

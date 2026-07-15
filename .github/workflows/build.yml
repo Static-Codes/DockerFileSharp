@@ -1,10 +1,6 @@
 name: Build and push NuGet package
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+workflow_dispatch:
 
 jobs:
   build-and-publish:
@@ -31,7 +27,7 @@ jobs:
           cd ../DockerFileSharp
           
           # Packing the package
-          dotnet pack --configuration Release /p:VersionPrefix=1.0.2
+          dotnet pack --configuration Release /p:VersionPrefix=1.0.3
           
       - name: NuGet login
         uses: NuGet/login@v1
