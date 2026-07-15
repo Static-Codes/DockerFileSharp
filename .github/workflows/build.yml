@@ -31,7 +31,7 @@ jobs:
           cd ../DockerFileSharp
           
           # Packing the package
-          dotnet pack --configuration Release /p:VersionPrefix=1.0.1
+          dotnet pack --configuration Release /p:VersionPrefix=1.0.2
           
       - name: NuGet login
         uses: NuGet/login@v1
